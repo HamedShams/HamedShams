@@ -1,10 +1,10 @@
 ## Hey, I'm Hamed 👋
 
-I started as a developer, drifted into product and engineering leadership – and still keep coming back to the code. I'm a bit obsessive by nature, dealing with ADHD since childhood, and it still fucking bothers me that the dash in the previous sentence might make this look AI-generated. So, I've spent the last 10 minutes revising this over and over to prove otherwise, without ruining the joke. Anyway.
+I started as a developer, drifted into product and engineering leadership – and still keep coming back to the code. I'm a bit obsessive by nature, dealing with ADHD since childhood, and it still fucking bothers me that the dash in the previous sentence might make this look AI-generated. So, I've spent the last 10 minutes revising this over and over to prove otherwise. Anyway.
 
 These days, most of that obsession goes into two things: **running open-weight LLMs locally on Apple Silicon** and **making agentic AI outputs verifiable**. Coding agents have tests and CI to check their work; but when an agent is making judgments, there's often no clear ground truth, and asking another LLM to judge brings its own inconsistencies. That's a problem I'm trying to figure out.
 
-**One question I can't get out of my head**: How far can we push SSD streaming to run powerful MoE models on typical consumer hardware - especially MacBooks? RAM is expensive, models keep getting bigger, and the most capable AI is increasingly locked behind APIs controlled by a handful of companies. Companies that also get to decide what we can and can't do with their models under fancy labels like "guardrails" or "pacing the frontier"! That goes against the free-software philosophy I believe in. I'd love to help make powerful local AI practical for more people.
+**One question I can't get out of my head**: How far can we push SSD streaming to run powerful MoE models on typical consumer hardware? RAM is expensive, models keep getting bigger, and the most capable AI is increasingly locked behind APIs controlled by a handful of companies. Companies that also get to decide what we can and can't do with their models under fancy labels like "guardrails" or "pacing the frontier"! That goes against the free-software philosophy I believe in. I'd love to help make powerful local AI practical for more people.
 
 
 ## Open-source contributions
