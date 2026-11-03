@@ -1,21 +1,31 @@
-## Hey, I'm Hamed
+## Hey, I'm Hamed 👋
 
-I started as a developer, drifted into product management and engineering, and still keep coming back to the code.
+I started as a developer, drifted into product and engineering leadership – and still keep coming back to the code. I'm a bit obsessive by nature, dealing with ADHD since childhood, and it still fucking bothers me that the dash in the previous sentence might make this look AI-generated. So, I've spent the last 10 minutes revising this over and over to prove otherwise, without ruining the joke. Anyway.
 
-These days, most of my curiosity goes into two things: local LLMs on Apple Silicon, and agentic systems that are actually dependable. Lately I’ve been thinking a lot about SSD streaming too — especially how far we can push consumer hardware, so decent MoE models can run locally instead of living behind someone else’s API.
+These days, most of that obsession goes into two things: **running open-weight LLMs locally on Apple Silicon** and **making agentic AI outputs verifiable**. Coding agents have tests and CI to check their work; but when an agent is making judgments, there's often no clear ground truth, and asking another LLM to judge brings its own inconsistencies. That's a problem I'm trying to figure out.
 
-### A few places I’ve shown up
+**One question I can't get out of my head**: How far can we push SSD streaming to run powerful MoE models on typical consumer hardware - especially MacBooks? RAM is expensive, models keep getting bigger, and the most capable AI is increasingly locked behind APIs controlled by a handful of companies. Companies that also get to decide what we can and can't do with their models under fancy labels like "guardrails" or "pacing the frontier"! That goes against the free-software philosophy I believe in. I'd love to help make powerful local AI practical for more people.
 
-**OSS contributions** 
-[oMLX](https://github.com/jundot/omlx/pulls?q=author%3AHamedShams) · [SwiftLM](https://github.com/SharpAI/SwiftLM/pulls?q=author%3AHamedShams) · [mlx-swift](https://github.com/ml-explore/mlx-swift/pulls?q=author%3AHamedShams) · [Heretic](https://github.com/p-e-w/heretic/pulls?q=author%3AHamedShams) · [Bend](https://github.com/bendlang/bend/pulls?q=author%3AHamedShams)
 
-**Projects**
-[whenship](https://github.com/HamedShams/whenship) — tiny planner for small teams, with live what-if Gantt, deadline risk and realistic dates  
-[mrkashio](https://github.com/HamedShams/mrkashio) — Telegram expense bot that turns messy notes into tidy, categorised rows in Google Sheets
+## Open-source contributions
 
-[![Website](https://img.shields.io/badge/website-hamedshams.com-111?style=flat-square)](https://hamedshams.com)
-[![X](https://img.shields.io/badge/X-@HamedShams40-111?style=flat-square)](https://x.com/HamedShams40)
+- **Local LLM inference:** [oMLX](https://github.com/jundot/omlx/pulls?q=author%3AHamedShams) · [SwiftLM](https://github.com/SharpAI/SwiftLM/pulls?q=author%3AHamedShams) · [inferSSD](https://github.com/wici-ai/inferssd/pulls?q=author%3AHamedShams)  
+  Running and serving LLMs on Apple Silicon, including SSD-backed inference.
+<!-- 
+- **ML frameworks:** [mlx-swift](https://github.com/ml-explore/mlx-swift/pulls?q=author%3AHamedShams)  
+  Tensor operations and ML framework correctness. -->
+
+- **Model freedom:** [Heretic](https://github.com/p-e-w/heretic/pulls?q=author%3AHamedShams)  
+  Modifying model behaviour without retraining - including removing built-in refusals / censorship.
+
+- **Proof-checked GPU computing:** [Bend](https://github.com/bendlang/bend/pulls?q=author%3AHamedShams)  
+  A proof-based programming language that compiles to massively parallel GPU code.
+
+---
+My DFlash streaming and cancellation fix in SwiftLM was selected for the XERJ Corpus Hub: 
+
 [![XERJ Corpus Hub contributor](https://hub.xerj.org/contributors/HamedShams/badge.svg)](https://hub.xerj.org/contributors/HamedShams)
+
 
 <!--
 **HamedShams/HamedShams** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
