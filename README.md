@@ -2,7 +2,7 @@
 
 I started as a developer, drifted into product and engineering leadership – and still keep coming back to the code. I'm a bit obsessive by nature, dealing with ADHD since childhood, and it still fucking bothers me that the dash in the previous sentence might make this look AI-generated. So, I've spent the last 10 minutes revising this over and over to prove otherwise. Anyway.
 
-These days, most of that obsession goes into **running open-weight LLMs locally on Apple Silicon**. Unlike conventional GPUs with limited VRAM, Apple's unified memory lets us keep much larger models accessible to the GPU; but RAM is expensive, and models keep getting bigger.
+These days, most of that obsession goes into **running open-weight LLMs locally on Apple Silicon**. Unlike conventional GPUs with limited VRAM, Apple's unified memory lets us keep much larger models accessible to the GPU; but RAM is expensive and models keep getting bigger.
 
 **One question I can't get out of my head:** how far can we push SSD streaming to keep only the active experts of a large MoE model in memory and load the rest on demand? If we can make that efficient enough, ordinary MacBooks could run frontier-scale models. Between GPU export controls, artificially constrained consumer hardware, and frontier models locked behind increasingly restrictive APIs, I'd rather see powerful AI running on the hardware we actually own, without someone else deciding what we're allowed to do with it!
 
