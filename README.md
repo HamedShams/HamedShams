@@ -10,13 +10,13 @@ These days, most of that obsession goes into **running open-weight LLMs locally 
 ## Open-source contributions
 
 - **Local LLM inference:** [oMLX](https://github.com/jundot/omlx/pulls?q=author%3AHamedShams) · [SwiftLM](https://github.com/SharpAI/SwiftLM/pulls?q=author%3AHamedShams) · [inferSSD](https://github.com/wici-ai/inferssd/pulls?q=author%3AHamedShams)  
-  Running and serving LLMs on Apple Silicon, including SSD-backed inference.
+  Running LLMs on Apple Silicon, including SSD-backed inference.
 <!-- 
 - **ML frameworks:** [mlx-swift](https://github.com/ml-explore/mlx-swift/pulls?q=author%3AHamedShams)  
   Tensor operations and ML framework correctness. -->
 
 - **Model freedom:** [Heretic](https://github.com/p-e-w/heretic/pulls?q=author%3AHamedShams)  
-  Modifying model behaviour without retraining - including removing built-in refusals / censorship.
+  Modifying model behaviour without retraining; removing built-in refusals / censorship.
 
 - **Proof-checked GPU computing:** [Bend](https://github.com/bendlang/bend/pulls?q=author%3AHamedShams)  
   A proof-based programming language that compiles to massively parallel GPU code.
